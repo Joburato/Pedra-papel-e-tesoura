@@ -20,6 +20,6 @@ function play(){
         document.getElementById( "img2" ).style.display = "none",
         document.getElementById( "img3" ).style.display = "none"
     }
-    frase.innerHTML="<br><br><br><br>O Computador escolheu..."
+    frase.innerHTML="<br><br><br>O Computador escolheu..."
     resultado.innerHTML=result
 }
