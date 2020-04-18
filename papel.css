@@ -15,21 +15,8 @@ font-family: minecraft;
 font-size: 500%;
 text-align: center;
 color: lightgray;
+position: static;
 }
-
-p{
-    font-family: minecraft;
-    font-size: 300%;
-    text-align: center;
-    color: lightgray;
-    }
-h2{
-    font-family: minecraft;
-    font-size: 300%;
-    text-align: center;
-    color: lightgray;
-    font-style: oblique;
-    }
 
 button {
     width: 60%;
@@ -61,10 +48,25 @@ button {
     transition: .1s easeout;
   }
 
+  p{
+    font-family: minecraft;
+    font-size: 300%;
+    text-align: center;
+    color: lightgray;
+  }
+
   img {
     position: absolute;
     top: 53%;
     left: 45%;
     width: 150px;
   }
+  
+  h2{
+    font-family: minecraft;
+    font-size: 300%;
+    text-align: center;
+    color: lightgray;
+    font-style: oblique;
+    }
   
