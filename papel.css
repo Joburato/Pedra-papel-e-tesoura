@@ -67,8 +67,5 @@ button {
     font-size: 300%;
     color: lightgray;
     font-style: oblique;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     }
   
