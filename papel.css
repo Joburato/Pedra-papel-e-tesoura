@@ -65,8 +65,10 @@ button {
   h2{
     font-family: minecraft;
     font-size: 300%;
-    text-align: center;
     color: lightgray;
     font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
   
