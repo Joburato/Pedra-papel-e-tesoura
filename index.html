@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="papel.css">
-    <script src="tesoura.js"></script>
-</head>
+    <head>
+        <link rel="stylesheet" href="Styles.css">
+        <script src="Script.js"></script>
+    </head>
 
-<body>
+    <body>
 
-<h1>Pedra, Papel e Tesoura.</h1>
+        <button id="button" onClick="play()">
+            Jogar
+        </button>
 
-<button id="button1" onClick="play()">
-Jogar
-</button>
+        <div class="container">
+            <h1>Pedra, Papel e Tesoura.</h1>
 
-<p id=frase></p>
+            <p id=frase></p>
 
-<img  style="display:none;" id="img1" src ="Shears.png">
-<img  style="display:none;" id="img2" src ="Stone.png">
-<img  style="display:none;" id="img3" src ="Paper.png">
-<h2 id="resultado"></h2>
+            <img  style="display:none;" id="img1" src ="Shears.png">
+            <img  style="display:none;" id="img2" src ="Stone.png">
+            <img  style="display:none;" id="img3" src ="Paper.png">
 
-</body>
+            <h2 id="result"></h2>
+        </div>
+    </body>
 </html>
