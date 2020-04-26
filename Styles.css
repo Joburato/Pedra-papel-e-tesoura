@@ -1,5 +1,8 @@
 *{
     background-color: #2E3A3D;
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 
 @font-face {
@@ -19,7 +22,6 @@ color: lightgray;
 button {
     width: 60%;
     padding: 0.5em 0;
-    position: absolute;
     cursor: pointer;
     border: none;
     transition: .2s ease;
@@ -28,8 +30,6 @@ button {
     box-shadow: 0 -2px 10px 2px rgba(0,0,0,.25);
     font-size: 250%;
     font-family: minecraft;
-    top: 20%;
-    left: 20%;
   }
   
   button:hover {
@@ -48,10 +48,6 @@ button {
     color: lightgray;
   }
 
-  img {
-    width: 150px;
-  }
-  
   h2{
     font-family: minecraft;
     font-size: 300%;
@@ -59,9 +55,3 @@ button {
     font-style: oblique;
     }
   
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
